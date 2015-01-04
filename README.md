@@ -32,7 +32,11 @@ If you have not already installed globally, you have to download composer. Just 
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
 
-If that produces SSL errors (`...certificate verify failed...`), try using `wget https://getcomposer.org/installer` or downloading the file manually.
+If that produces SSL errors (`...certificate verify failed...`), try using:
+```bash
+wget https://getcomposer.org/installer
+```
+or downloading the file manually.
 
 Now get the required libraries to work with PhpOrient:
 ```bash
