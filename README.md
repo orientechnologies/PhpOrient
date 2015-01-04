@@ -36,7 +36,7 @@ If that produces SSL errors (`...certificate verify failed...`), try using:
 ```bash
 wget https://getcomposer.org/installer
 ```
-or downloading the file manually.
+or download the file from a browser.
 
 Now get the required libraries to work with PhpOrient:
 ```bash
